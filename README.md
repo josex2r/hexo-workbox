@@ -1,6 +1,6 @@
 # hexo-workbox [![Build Status](https://travis-ci.org/BBVAEngineering/hexo-workbox.svg?branch=master)](https://travis-ci.org/BBVAEngineering/hexo-workbox) [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fhexo-workbox.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fhexo-workbox) [![Dependency Status](https://travis-ci.org/BBVAEngineering/hexo-workbox.svg)](https://travis-ci.org/BBVAEngineering/hexo-workbox)
 
-A plugin for your `Hexo` build process, giving your app offline caching as a progressive enhancement, using service workers.
+A plugin for your `Hexo` blog, giving your app offline caching as a progressive enhancement using service workers.
 `hexo-workbox` will add a service worker to your blog registering it on initial page load.
 
 This plugin simplify service worker registration and caching, powered by [workbox-build](https://www.npmjs.com/package/workbox-build).
@@ -56,4 +56,4 @@ Do not forget to follow the `eslint` rules and make test for the new functionali
 
 ## License
 
-[hexo-workbox](https://github.com/josex2r/hexo-workbox) is released under the ISC License.
+[hexo-workbox](https://github.com/josex2r/hexo-workbox) is released under the MIT License.
