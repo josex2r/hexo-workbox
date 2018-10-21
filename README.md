@@ -50,6 +50,21 @@ workbox:
   clientsClaim: true
 ```
 
+An one more step...
+To register the service worker don't forget to add this snippet into yout layout:
+
+```html
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('<%=path %>').then(function() {
+    console.log('ServiceWorker has been registered!');
+  }).catch(console.error);
+}
+</script>
+```
+
+> Next releases will contain a way to omit this step.
+
 ## Contributing
 
 Do not forget to follow the `eslint` rules and make test for the new functionalities/fixes.
