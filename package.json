@@ -4,7 +4,7 @@
   "description": "Manage your service worker though the workbox library",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js lib/**/*.js",
+    "lint": "eslint index.js lib/**/*.js test/**/*.js",
     "test": "mocha test/**/*-test.js"
   },
   "keywords": [
