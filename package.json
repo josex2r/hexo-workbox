@@ -7,6 +7,10 @@
     "lint": "eslint index.js lib/**/*.js test/**/*.js",
     "test": "mocha test/**/*-test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josex2r/hexo-workbox.git"
+  },
   "keywords": [
     "hexo",
     "hexo-plugin",
