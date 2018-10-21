@@ -1,4 +1,4 @@
-# hexo-workbox [![Build Status](https://travis-ci.org/BBVAEngineering/hexo-workbox.svg?branch=master)](https://travis-ci.org/BBVAEngineering/hexo-workbox) [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fhexo-workbox.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fhexo-workbox) [![Dependency Status](https://travis-ci.org/BBVAEngineering/hexo-workbox.svg)](https://travis-ci.org/BBVAEngineering/hexo-workbox)
+# hexo-workbox [![Build Status](https://travis-ci.org/josex2r/hexo-workbox.svg?branch=master)](https://travis-ci.org/josex2r/hexo-workbox) [![GitHub version](https://badge.fury.io/gh/josex2r%2Fhexo-workbox.svg)](https://badge.fury.io/gh/josex2r%2Fhexo-workbox) [![Dependency Status](https://travis-ci.org/josex2r/hexo-workbox.svg)](https://travis-ci.org/josex2r/hexo-workbox)
 
 A plugin for your `Hexo` blog, giving your app offline caching as a progressive enhancement using service workers.
 `hexo-workbox` will add a service worker to your blog registering it on initial page load.
