@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+node_modules/
+
+# vim
+tags
+tags.lock
+tags.temp
