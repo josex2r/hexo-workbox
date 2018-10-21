@@ -4,6 +4,7 @@ const filterWorkbox = require('./lib/filter-workbox');
 
 hexo.config.workbox = hexo.config.workbox || {};
 hexo.config.workbox.swDest = hexo.config.workbox.swDest || 'sw.js';
+hexo.config.workbox.importScripts = hexo.config.workbox.importScripts || [];
 hexo.config.workbox.globDirectory = hexo.config.public_dir;
 
 if (hexo.config.hexoWorkbox && hexo.config.hexoWorkbox.enable) {

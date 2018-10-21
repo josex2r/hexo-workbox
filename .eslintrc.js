@@ -1,3 +1,8 @@
 module.exports = {
-  extends: 'airbnb'
+  extends: 'airbnb',
+
+  rules: {
+    'prefer-destructuring': 1,
+    'comma-dangle': 0
+  }
 };

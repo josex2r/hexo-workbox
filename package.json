@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js lib/**/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*-test.js"
   },
   "keywords": [
     "hexo",
@@ -24,10 +24,13 @@
     "workbox-build": "^3.6.2"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "mocha": "^5.2.0",
+    "sinon": "^7.0.0"
   }
 }
