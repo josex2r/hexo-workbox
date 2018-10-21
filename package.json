@@ -4,6 +4,7 @@
   "description": "Manage your service worker though the workbox library",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint index.js lib/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,12 +21,9 @@
   "dependencies": {
     "debug": "^4.1.0",
     "hexo-fs": "^1.0.0",
-    "tmp": "0.0.33",
-    "walk-sync": "^0.3.3",
     "workbox-build": "^3.6.2"
   },
   "devDependencies": {
-    "debug": "^4.1.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
