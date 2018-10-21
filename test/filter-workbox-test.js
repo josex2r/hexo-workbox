@@ -4,7 +4,6 @@ const chai = require('chai');
 const sinon = require('sinon');
 const path = require('path');
 const fs = require('hexo-fs');
-const workboxBuild = require('workbox-build');
 const filterWorkbox = require('../lib/filter-workbox');
 
 const { expect } = chai;
