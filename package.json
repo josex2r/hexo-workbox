@@ -1,6 +1,6 @@
 {
   "name": "hexo-workbox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Manage your service worker though the workbox library",
   "main": "index.js",
   "scripts": {
