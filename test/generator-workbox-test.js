@@ -5,9 +5,9 @@ const sinon = require('sinon');
 const workboxBuild = require('workbox-build');
 const generatorWorkbox = require('../lib/generator-workbox');
 
-const expect = chai.expect;
+const { expect } = chai;
 
-describe('workbox-generator', () => {
+describe('generator-workbox', () => {
   let sandbox;
 
   beforeEach(() => {
